@@ -16,7 +16,7 @@ export const Hero = () => {
       id='hero'
     >
       <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row md:place-items-start md:justify-start'>
-        <div className='mt-10 max-w-175 flex-[5.3] basis-80 flex-col items-center justify-start gap-4 md:z-80 md:mt-25.25'>
+        <div className='mt-10 max-w-175 flex-[5.3] basis-80 flex-col items-center justify-start gap-4 md:z-80 md:mt-[10%]'>
           <div className='flex items-center space-x-2'>
             <div className='1px border-rgba(253, 253, 253, 1) w-5.25 border md:w-28.5'></div>
             <div className='text-neutral-25 text-md font-medium md:text-xl'>
