@@ -210,6 +210,7 @@ body {
 
 @layer components {
   .custom-container {
+    margin: 0 auto;
     @apply mx-w-302 pr-6 pl-6;
   }
 }
