@@ -12,7 +12,7 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:min-h-screen md:px-32'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:min-h-svh md:items-center md:px-32'
       id='hero'
     >
       <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row'>
