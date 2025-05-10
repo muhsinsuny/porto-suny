@@ -15,7 +15,7 @@ export const Hero = () => {
       className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:min-h-screen md:px-32'
       id='hero'
     >
-      <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row md:place-items-start md:justify-start'>
+      <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row'>
         <div className='mt-10 max-w-175 flex-[5.3] basis-80 flex-col items-center justify-start gap-4 md:z-80 md:mt-[7%]'>
           <div className='flex items-center space-x-2'>
             <div className='1px border-rgba(253, 253, 253, 1) w-5.25 border md:w-28.5'></div>

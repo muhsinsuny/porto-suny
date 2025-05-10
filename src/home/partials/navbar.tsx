@@ -14,9 +14,9 @@ import { navigationItems } from '@/constants/Navigation.data';
 
 const Navbar = () => {
   return (
-    <header className='flex-between custom-container top-0 z-100 h-20 w-full items-center justify-center py-6.25 text-white md:absolute md:z-100 md:px-32'>
-      <div className='border-b-1px flex h-20 w-full items-center justify-between border-neutral-800 md:absolute md:z-100 md:justify-between'>
-        <div className='md:justify-betwenn md:right-0 md:flex md:flex-row md:items-center md:gap-80'>
+    <header className='flex-between custom-container top-0 z-100 h-20 w-full items-center justify-center py-6.25 text-white md:absolute md:z-100 md:items-center md:px-32'>
+      <div className='border-b-1px flex h-20 w-full items-center justify-between border-neutral-800 md:absolute md:z-100 md:items-center md:justify-between'>
+        <div className='md:right-0 md:flex md:flex-row md:items-center md:justify-between md:gap-80'>
           <div className='flex items-start'>
             <div className='flex items-center gap-2.25 md:gap-4'>
               <div className='1px border-rgba(255, 255, 255, 1) w-6 border md:w-10'></div>
