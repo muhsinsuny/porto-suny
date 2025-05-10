@@ -47,6 +47,7 @@ export default {
       animation: {
         marquee: 'marquee var(--duration) linear infinite',
         'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+        'marquee-reverse': 'marquee-reverse var(--duration) linear infinite',
       },
       keyframes: {
         marquee: {
@@ -57,8 +58,16 @@ export default {
           from: { transform: 'translateY(0)' },
           to: { transform: 'translateY(calc(-100% - var(--gap)))' },
         },
+        'marquee-reverse': {
+          from: { transform: 'translateX(calc(-100% - var(--gap)))' },
+          to: { transform: 'translateX(0)' },
+        },
       },
     },
   },
   plugins: [customTextPlugin],
 } satisfies Config;
+
+const Config = {
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+};

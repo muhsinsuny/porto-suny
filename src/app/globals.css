@@ -210,7 +210,7 @@ body {
 
 @layer components {
   .custom-container {
-    @apply max-w-308 pr-6 pl-6;
+    @apply mx-auto max-w-screen-xl px-6;
   }
 }
 
@@ -233,4 +233,28 @@ img {
   -webkit-user-select: none;
 }
 
-/* sampai menit 57:26 */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee var(--duration, 20s) linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse var(--duration, 20s) linear infinite;
+}

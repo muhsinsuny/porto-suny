@@ -1,31 +1,80 @@
+import { Menu } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
+
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 
 import { navigationItems } from '@/constants/Navigation.data';
 
 const Navbar = () => {
   return (
-    <header className='flex items-center justify-between p-4 text-white'>
-      <div className='flex items-start'>
-        <div className='flex items-center space-x-2'>
-          <div className='1px border-rgba(255, 255, 255, 1) w-10 border'></div>
-          <span className='text-primary-200 text-xl font-bold'>
-            Muhsin Suny M
-          </span>
+    <header className='flex-between custom-container top-0 z-100 h-20 w-full items-center overflow-hidden py-6.25 text-white md:absolute md:z-100 md:px-32'>
+      <div className='border-b-1px flex h-20 w-full items-center justify-between border-neutral-800 md:absolute md:z-100 md:ml-26 md:justify-between'>
+        <div className='md:flex md:flex-row md:items-center md:justify-center md:gap-75'>
+          <div className='flex items-start'>
+            <div className='flex items-center gap-2.25 md:gap-4'>
+              <div className='1px border-rgba(255, 255, 255, 1) w-6 border md:w-10'></div>
+              <span className='text-primary-200 text-md-bold md:text-xl-bold'>
+                Muhsinsuny
+              </span>
+            </div>
+          </div>
+          <div className='flex items-center justify-between p-4 text-white md:mix-blend-hard-light'>
+            <div className='flex space-x-4'>
+              <nav className='hidden md:block'>
+                <ul className='flex items-center gap-8 space-x-4 md:gap-6 md:p-6'>
+                  {navigationItems.map((item, index) => (
+                    <li
+                      key={index}
+                      className='hover:text-primary-200 text-md-regular text-base-white'
+                    >
+                      <Link className='p-2' href={item.href}>
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className='flex items-center justify-between p-4 text-white'>
-        <div className='flex space-x-4'>
-          <nav className='flex space-x-4'>
-            <ul className='flex items-center space-x-4'>
-              {navigationItems.map((item, index) => (
-                <li key={index} className='hover:text-primary-200'>
-                  <Link href={item.href}>{item.label}</Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
+        <Sheet>
+          <SheetTrigger asChild>
+            <Menu className='cursor-pointer md:hidden' />
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader className='1px align-center flex h-20 w-full border border-neutral-800 px-4 pt-6.25'>
+              <SheetTitle>
+                <div className='flex-start items-center gap-2.25'>
+                  <div className='border-base-white 1px w-6 border'></div>
+                  <span className='text-primary-200 text-md-bold'>
+                    Muhsinsuny
+                  </span>
+                </div>
+              </SheetTitle>
+            </SheetHeader>
+            <nav>
+              <ul className='bg-base-background z-100 flex-col items-center gap-6 px-6'>
+                {navigationItems.map((item, index) => (
+                  <li
+                    key={index}
+                    className='hover:text-primary-200 text-md-regular text-base-white p-2'
+                  >
+                    <Link className='' href={item.href}>
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </SheetContent>
+        </Sheet>
       </div>
     </header>
   );
