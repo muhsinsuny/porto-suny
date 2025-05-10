@@ -210,7 +210,7 @@ body {
 
 @layer components {
   .custom-container {
-    @apply mx-auto max-w-screen-xl px-6;
+    @apply mx-w-302 pr-6 pl-6;
   }
 }
 
