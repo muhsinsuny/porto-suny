@@ -12,7 +12,7 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex flex-wrap items-center overflow-hidden md:relative md:z-80 md:min-h-screen md:px-32'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:min-h-screen md:px-32'
       id='hero'
     >
       <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row md:place-items-start md:justify-start'>
@@ -77,9 +77,9 @@ export const Hero = () => {
       </div>
 
       {/* vertical line left mobile and right desktop*/}
-      <div className='absolute -top-[9%] left-1/2 -z-10 h-155.75 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-[10%] md:left-[50%] md:-z-10 md:h-300 md:-translate-x-3/4 md:transform'></div>
+      <div className='absolute -top-[9%] left-1/2 -z-10 h-155.75 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-[10%] md:left-[50%] md:-z-10 md:h-250 md:-translate-x-3/4 md:transform'></div>
       {/* vertical line right mobile and left desktop*/}
-      <div className='absolute top-[10%] left-3/4 -z-10 h-120 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-[10%] md:left-[25%] md:-z-10 md:h-800 md:transform'></div>
+      <div className='absolute top-[10%] left-3/4 -z-10 h-120 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-[10%] md:left-[25%] md:-z-10 md:h-250 md:transform'></div>
 
       {/* rectangle group */}
       <div>
@@ -87,7 +87,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-[105%] left-0 z-30 md:absolute md:top-[480] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-[105%] left-0 z-30 md:absolute md:top-[94.7%] md:block'
           alt='rectangle'
         />
       </div>
@@ -96,7 +96,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-[100%] left-8.5 z-30 md:absolute md:top-[100%] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-[100%] left-8.5 z-30 md:absolute md:top-[625] md:block'
           alt='rectangle'
         />
       </div>
