@@ -12,7 +12,7 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden bg-green-200 md:relative md:z-80 md:min-h-svh md:items-center md:px-32'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden bg-green-200 md:relative md:z-80 md:h-screen md:items-center md:px-32'
       id='hero'
     >
       <div className='z-80 flex flex-col items-center justify-center gap-10 bg-red-500 md:z-10 md:flex-row'>
@@ -113,7 +113,7 @@ export const Hero = () => {
       {/* horizontal line nav */}
       <div className='absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-32'></div>
       {/* horizontal line bottom hero */}
-      <div className='absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-[99.5%] md:z-35'></div>
+      <div className='absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-158 md:z-35'></div>
     </section>
   );
 };
