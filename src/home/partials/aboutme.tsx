@@ -37,21 +37,21 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
           alt='project1'
           width={170}
           height={127}
-          className='absolute top-105 left-17 w-[160px] md:top-32 md:left-[11.5%] md:z-0 md:h-[178px] md:w-[238px] md:-translate-y-[50%]'
+          className='absolute top-105 left-17 h-[127px] w-[170px] md:top-32 md:left-[11.5%] md:z-0 md:h-[178px] md:w-[238px] md:-translate-y-[50%]'
         />
         <Image
           src='/images/pro2.png'
           alt='project2'
           width={134}
           height={99}
-          className='absolute bottom-30 left-62 md:absolute md:top-22 md:left-[73.5%] md:z-0 md:h-[187px] md:w-[250px]'
+          className='absolute top-117 left-62 h-[99] w-[134] md:absolute md:top-22 md:left-[73.5%] md:z-0 md:h-[187px] md:w-[250px]'
         />
         <Image
           src='/images/pro3.png'
           alt='project3'
           width={132}
           height={100}
-          className='absolute bottom-3 left-1/2 mt-5 -translate-x-1/2 md:absolute md:top-75 md:left-1/2 md:z-100 md:mt-0 md:h-[88px] md:w-[117px] md:translate-x-39'
+          className='absolute top-140 left-1/2 mt-5 h-[100px] w-[132px] -translate-x-1/2 md:absolute md:top-75 md:left-1/2 md:z-100 md:mt-0 md:h-[88px] md:w-[117px] md:translate-x-39'
         />
 
         {/* rectangle group */}
