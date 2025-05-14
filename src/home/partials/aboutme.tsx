@@ -10,7 +10,7 @@ interface AboutmeProps {
 export const AboutMe: React.FC<AboutmeProps> = () => {
   return (
     <>
-      <div className='custom-container md:flex-center relative mb-0 flex min-h-screen w-full flex-col items-center pt-10 md:relative md:mt-30 md:mb-0 md:flex md:flex-col md:px-28 md:pt-30'>
+      <div className='custom-container md:flex-center relative mb-0 flex min-h-screen w-full flex-col items-center pt-10 md:relative md:mt-30 md:mb-0 md:flex md:h-[633] md:flex-col md:px-28 md:pt-30'>
         <div className='flex-center flex w-full flex-col text-center md:relative'>
           <div className='flex flex-col text-center'>
             <h3 className='text-primary-200 text-md font-medium md:text-lg'>

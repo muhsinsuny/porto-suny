@@ -82,7 +82,7 @@ const PortfolioGrid = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
-    <section className='bg-black px-6 py-16 md:px-20'>
+    <section className='custom-container bg-black px-6 py-16 md:px-28'>
       <div className='mb-10 text-center'>
         <p className='text-primary-200 text-sm font-medium md:text-lg'>
           PORTFOLIO
@@ -118,7 +118,7 @@ const PortfolioGrid = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <span className='bg-neutral-25 hover:bg-primary-200 hover:text-2xl-bold flex h-20 w-20 items-center justify-center rounded-full border border-white text-lg font-semibold text-black hover:cursor-pointer'>
+                  <span className='bg-neutral-25 hover:bg-primary-200 hover:text-2xl-bold flex h-20 w-20 items-center justify-center rounded-full border text-lg font-semibold text-black hover:cursor-pointer'>
                     VISIT
                   </span>
                 </Link>
