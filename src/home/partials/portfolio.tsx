@@ -33,7 +33,7 @@ const portfolios = [
   },
   {
     id: 2,
-    title: 'Landing Pages',
+    title: 'Landing Page',
     description:
       'Make a bold first impression. This is where your brand meets your audience — fast, focused, and built to convert.',
     image: '/images/image2.png',
