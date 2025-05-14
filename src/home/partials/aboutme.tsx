@@ -10,7 +10,7 @@ interface AboutmeProps {
 export const AboutMe: React.FC<AboutmeProps> = () => {
   return (
     <>
-      <div className='custom-container md:flex-center relative mb-0 flex h-[100vh] w-full flex-col items-center pt-10 md:relative md:mt-30 md:mb-0 md:flex md:flex-col md:px-28 md:pt-30'>
+      <div className='custom-container md:flex-center relative mb-0 flex min-h-screen w-full flex-col items-center pt-10 md:relative md:mt-30 md:mb-0 md:flex md:flex-col md:px-28 md:pt-30'>
         <div className='flex-center flex w-full flex-col text-center md:relative'>
           <div className='flex flex-col text-center'>
             <h3 className='text-primary-200 text-md font-medium md:text-lg'>
@@ -31,12 +31,13 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
             </p>
           </div>
         </div>
+
         <Image
           src='/images/pro1.png'
           alt='project1'
           width={170}
           height={127}
-          className='absolute bottom-[25%] left-17 md:absolute md:top-30 md:left-[11.5%] md:z-0 md:h-[178px] md:w-[238px] md:-translate-y-[50%]'
+          className='absolute top-0 left-[10%] w-[160px] md:top-32 md:left-[11.5%] md:z-0 md:h-[178px] md:w-[238px] md:-translate-y-[50%]'
         />
         <Image
           src='/images/pro2.png'
@@ -50,7 +51,7 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
           alt='project3'
           width={132}
           height={100}
-          className='absolute bottom-[5%] left-1/2 mt-5 -translate-x-1/2 md:absolute md:top-[47%] md:left-[68%] md:z-100 md:mt-0 md:h-[88px] md:w-[117px]'
+          className='absolute bottom-[5%] left-1/2 mt-5 -translate-x-1/2 md:absolute md:top-75 md:left-1/2 md:z-100 md:mt-0 md:h-[88px] md:w-[117px] md:translate-x-39'
         />
 
         {/* rectangle group */}
@@ -60,7 +61,7 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
             src='/icons/rectangle.svg'
             width={34}
             height={34}
-            className='md:width-[46px] md:height-[46px] absolute top-[95%] left-0 z-30 md:absolute md:top-[90%] md:block'
+            className='md:width-[46px] md:height-[46px] absolute top-[95%] left-0 z-30 md:absolute md:top-143 md:block'
             alt='rectangle'
           />
         </div>
@@ -69,7 +70,7 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
             src='/icons/rectangle.svg'
             width={34}
             height={34}
-            className='md:width-[46px] md:height-[46px] absolute top-[90%] left-8 z-30 md:top-[85%] md:left-[2.7%] md:block'
+            className='md:width-[46px] md:height-[46px] absolute top-[90%] left-8 z-30 md:top-135 md:left-[2.7%] md:block'
             alt='rectangle'
           />
         </div>
@@ -78,7 +79,7 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
             src='/icons/rectangle.svg'
             width={34}
             height={34}
-            className='md:width-[46px] md:height-[46px] absolute top-[85%] left-0 z-30 md:top-[80%] md:block'
+            className='md:width-[46px] md:height-[46px] absolute top-[85%] left-0 z-30 md:top-127 md:block'
             alt='rectangle'
           />
         </div>
