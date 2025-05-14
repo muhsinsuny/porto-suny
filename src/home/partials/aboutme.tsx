@@ -61,7 +61,7 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
             src='/icons/rectangle.svg'
             width={34}
             height={34}
-            className='md:width-[46px] md:height-[46px] absolute top-[95%] left-0 z-30 md:absolute md:top-143 md:block'
+            className='md:width-[46px] md:height-[46px] absolute top-163 left-0 z-30 md:absolute md:top-143 md:block'
             alt='rectangle'
           />
         </div>
@@ -70,7 +70,7 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
             src='/icons/rectangle.svg'
             width={34}
             height={34}
-            className='md:width-[46px] md:height-[46px] absolute top-[90%] left-8 z-30 md:top-135 md:left-[2.7%] md:block'
+            className='md:width-[46px] md:height-[46px] absolute top-155 left-8 z-30 md:top-135 md:left-[2.7%] md:block'
             alt='rectangle'
           />
         </div>
@@ -79,7 +79,7 @@ export const AboutMe: React.FC<AboutmeProps> = () => {
             src='/icons/rectangle.svg'
             width={34}
             height={34}
-            className='md:width-[46px] md:height-[46px] absolute top-[85%] left-0 z-30 md:top-127 md:block'
+            className='md:width-[46px] md:height-[46px] absolute top-147 left-0 z-30 md:top-127 md:block'
             alt='rectangle'
           />
         </div>
