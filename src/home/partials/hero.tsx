@@ -77,9 +77,9 @@ export const Hero = () => {
       </div>
 
       {/* vertical line left mobile and right desktop*/}
-      <div className='absolute -top-[9%] left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-[10%] md:left-[50%] md:-z-10 md:h-250 md:-translate-x-3/4 md:transform'></div>
+      <div className='absolute -top-10 left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[50%] md:-z-10 md:h-250 md:-translate-x-3/4 md:transform'></div>
       {/* vertical line right mobile and left desktop*/}
-      <div className='absolute top-[10%] left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-[10%] md:left-[25%] md:-z-10 md:h-250 md:transform'></div>
+      <div className='absolute top-20 left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[25%] md:-z-10 md:h-250 md:transform'></div>
 
       {/* rectangle group */}
       <div>
@@ -87,7 +87,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-[105%] left-0 z-100 md:absolute md:top-[94.5%] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-100 md:absolute md:top-149 md:block'
           alt='rectangle'
         />
       </div>
@@ -96,7 +96,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-[100%] left-8.5 z-100 md:absolute md:top-[89.5%] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-100 md:absolute md:top-141 md:block'
           alt='rectangle'
         />
       </div>
@@ -105,15 +105,15 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-[105%] left-17 z-100 md:absolute md:top-[94.5%] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-100 md:absolute md:top-149 md:block'
           alt='rectangle'
         />
       </div>
 
       {/* horizontal line nav */}
-      <div className='absolute top-[10%] bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-32'></div>
+      <div className='absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-32'></div>
       {/* horizontal line bottom hero */}
-      <div className='absolute top-[75%] left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-[99.5%] md:z-35'></div>
+      <div className='absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-[99.5%] md:z-35'></div>
     </section>
   );
 };
