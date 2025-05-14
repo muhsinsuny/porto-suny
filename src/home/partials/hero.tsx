@@ -77,9 +77,9 @@ export const Hero = () => {
       </div>
 
       {/* vertical line left mobile and right desktop*/}
-      <div className='absolute -top-10 left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[50%] md:-z-10 md:h-250 md:-translate-x-3/4 md:transform'></div>
+      <div className='absolute -top-10 left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[50%] md:-z-10 md:h-167 md:-translate-x-3/4 md:transform'></div>
       {/* vertical line right mobile and left desktop*/}
-      <div className='absolute top-20 left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[25%] md:-z-10 md:h-250 md:transform'></div>
+      <div className='absolute top-20 left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[25%] md:-z-10 md:h-167 md:transform'></div>
 
       {/* rectangle group */}
       <div>
