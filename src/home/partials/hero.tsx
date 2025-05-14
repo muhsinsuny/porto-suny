@@ -45,7 +45,7 @@ export const Hero = () => {
         {/* Profil Image */}
         <div
           className={
-            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:-top-30 md:right-0 md:z-10 md:w-1/2 md:items-end md:justify-end md:gap-0'
+            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:w-1/2 md:items-end md:justify-end md:gap-0'
           }
         >
           <div className='md:right-0 md:-z-10'>
@@ -55,7 +55,7 @@ export const Hero = () => {
               height={400}
               width={392}
               sizes='100%'
-              className='z-10 items-center rounded-lg object-contain md:top-0 md:right-0 md:z-10 md:h-[981px] md:w-[661px] md:rounded-2xl'
+              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-full md:w-[661px] md:rounded-2xl'
               quality={100}
               priority={true}
               loading='eager'
@@ -66,7 +66,7 @@ export const Hero = () => {
           </div>
 
           {/* Stiker */}
-          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-[57%] md:left-1/2 md:w-fit md:-translate-x-1/2'>
+          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-1/2 md:left-1/2 md:w-fit md:-translate-x-1/2 md:translate-y-1/2'>
             <Sticker
               title='5.0'
               icon='material-symbols:star-rounded'
