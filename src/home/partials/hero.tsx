@@ -12,30 +12,30 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:min-h-svh md:items-center md:px-32'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden bg-green-200 md:relative md:z-80 md:min-h-svh md:items-center md:px-32'
       id='hero'
     >
-      <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row'>
-        <div className='mt-10 max-w-175 flex-col items-center justify-start gap-4 md:z-80'>
+      <div className='z-80 flex flex-col items-center justify-center gap-10 bg-red-500 md:z-10 md:flex-row'>
+        <div className='mt-10 max-w-175 flex-col items-center justify-start gap-4 md:z-80 md:mt-0'>
           <div className='flex items-center space-x-2'>
             <div className='1px border-rgba(253, 253, 253, 1) w-5.25 border md:w-28.5'></div>
             <div className='text-neutral-25 text-md font-medium md:text-xl'>
               Hi, I am Muhsinsuny, Frontend Developer
             </div>
           </div>
-          <div className='flex-col overflow-auto'>
+          <div className='flex-col overflow-auto md:mt-4'>
             <h1 className='font-weight-extrabold text-display-lg font-bold text-neutral-200 md:text-5xl'>
               BUILDING FAST &{' '}
               <span className='text-primary-200'>INTERACTIVE</span> WEB
               EXPERIENCES.
             </h1>
-            <p className='mt-4 max-w-150 text-lg font-medium text-neutral-400 md:z-80 md:text-xl'>
+            <p className='mt-4 max-w-150 text-lg font-medium text-neutral-400 md:z-80 md:mt-4 md:text-xl'>
               Bridging creativity and functionality to deliver stunning,
               user-friendly web applications
             </p>
             <Button
               asChild
-              className='text-md bg-primary-200 hover:bg-primary-300 mt-14 h-14 w-full p-2 px-8 py-4 font-bold text-neutral-950 md:mt-20 md:w-75'
+              className='text-md bg-primary-200 hover:bg-primary-300 mt-14 h-14 w-full p-2 px-8 py-4 font-bold text-neutral-950 md:mt-15 md:w-75'
             >
               <Link href='#'>HIRE ME</Link>
             </Button>

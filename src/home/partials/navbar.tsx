@@ -14,7 +14,7 @@ import { navigationItems } from '@/constants/Navigation.data';
 
 const Navbar = () => {
   return (
-    <header className='flex-between custom-container md:max-w-auto top-0 z-100 h-20 w-full items-center justify-center px-4 py-6.25 text-white md:absolute md:left-1/2 md:z-100 md:max-w-7xl md:-translate-x-1/2 md:transform md:items-center md:px-32'>
+    <header className='flex-between custom-container md:max-w-auto top-0 z-100 h-20 w-full items-center justify-center px-4 py-6.25 text-white md:absolute md:left-1/2 md:z-100 md:min-w-6xl md:-translate-x-1/2 md:transform md:items-center md:px-32'>
       <div className='border-b-1px md:max-w-auto flex h-20 w-full items-center justify-between border-neutral-800 md:absolute md:z-100 md:items-center md:justify-between'>
         <div className='md:right-0 md:flex md:flex-row md:items-center md:justify-between md:gap-80'>
           <div className='flex items-start'>
@@ -25,10 +25,10 @@ const Navbar = () => {
               </span>
             </div>
           </div>
-          <div className='flex items-center justify-between p-2 text-white md:mix-blend-hard-light'>
-            <div className='flex space-x-4'>
+          <div className='flex items-center justify-between p-2 text-white md:h-20 md:w-full md:mix-blend-hard-light'>
+            <div className='flex'>
               <nav className='hidden md:block'>
-                <ul className='flex items-center gap-8 space-x-4 md:gap-4 md:p-6'>
+                <ul className='flex items-center gap-8 md:gap-4 md:p-6'>
                   {navigationItems.map((item, index) => (
                     <li
                       key={index}
