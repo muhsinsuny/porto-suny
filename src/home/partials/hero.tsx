@@ -12,11 +12,11 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden bg-green-200 md:relative md:z-80 md:h-screen md:items-center md:px-32'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:h-[633px] md:items-center md:px-32'
       id='hero'
     >
-      <div className='z-80 flex flex-col items-center justify-center gap-10 bg-red-500 md:z-10 md:flex-row'>
-        <div className='mt-10 max-w-175 flex-col items-center justify-start gap-4 md:z-80 md:mt-0'>
+      <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:mt-15 md:flex-row'>
+        <div className='mt-10 max-w-175 flex-col items-center justify-start gap-4 md:z-80'>
           <div className='flex items-center space-x-2'>
             <div className='1px border-rgba(253, 253, 253, 1) w-5.25 border md:w-28.5'></div>
             <div className='text-neutral-25 text-md font-medium md:text-xl'>
@@ -66,7 +66,7 @@ export const Hero = () => {
           </div>
 
           {/* Stiker */}
-          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-1/2 md:left-1/2 md:w-fit md:-translate-x-1/2 md:translate-y-1/2'>
+          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-1/2 md:left-1/2 md:w-fit md:-translate-x-1/2 md:translate-y-2/3'>
             <Sticker
               title='5.0'
               icon='material-symbols:star-rounded'
