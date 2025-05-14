@@ -19,7 +19,7 @@ export default function WorkingSection() {
   ];
 
   return (
-    <section className='custom-container mt-8 w-full p-6 md:mt-50 md:px-32'>
+    <section className='custom-container mt-6 w-full p-6 md:mt-10 md:px-28'>
       <header className='text-center'>
         <h3 className='text-md text-primary-200 font-medium md:mb-2 md:text-lg'>
           WORKING
@@ -27,6 +27,7 @@ export default function WorkingSection() {
         <h2 className='display-md-extrabold text-neutral-25 md:display-xl-extrabold mt-2'>
           WHY CHOOSE ME?
         </h2>
+        <div className='mx-auto mt-2 h-1 w-10 bg-pink-400' />
       </header>
       <div className='grid grid-cols-1 gap-8 md:mt-12 md:grid-cols-2 md:gap-20'>
         {/* Column 1 */}

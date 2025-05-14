@@ -10,7 +10,7 @@ interface ServiceCardsProps {
   icon: string;
 }
 
-export const ServiceCards: React.FC<ServiceCardsProps> = ({
+const ServiceCards: React.FC<ServiceCardsProps> = ({
   id,
   title,
   description,
