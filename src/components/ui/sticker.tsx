@@ -4,8 +4,8 @@ import { Icon } from '@iconify/react';
 import React from 'react';
 
 interface StickerProps {
-  title: string;
-  subtitle: string;
+  title?: string;
+  subtitle?: string;
 
   icon: string;
   description?: string;

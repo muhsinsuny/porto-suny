@@ -13,7 +13,7 @@ const testimonials: Testimonial[] = [
     role: 'Project Manager',
     company: 'Upwork',
     companyLogo: '/icons/icon-upwork.svg',
-    rating: 5,
+    rating: 4,
     message:
       'Highly skilled frontend developer with an eye for design. Transformed our wireframes into a seamless and responsive web experience. Highly recommended!',
   },
@@ -22,7 +22,7 @@ const testimonials: Testimonial[] = [
     role: 'Head of Product',
     company: 'Trello',
     companyLogo: '/icons/icon-trello.svg',
-    rating: 5,
+    rating: 3,
     message:
       'An absolute pleasure to work with! Delivered a stunning, high-performance website that exceeded expectations.',
   },
@@ -40,7 +40,7 @@ const testimonials: Testimonial[] = [
     role: 'Lead Developer',
     company: 'Zoom',
     companyLogo: '/icons/icon-zoom.svg',
-    rating: 5,
+    rating: 4,
     message:
       'A pleasure to collaborate with! Writes clean, maintainable code while effectively working with designers and backend engineers.',
   },
@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
     role: 'Head of Product',
     company: 'Trello',
     companyLogo: '/icons/icon-netflix.svg',
-    rating: 5,
+    rating: 3,
     message:
       'An absolute pleasure to work with! Delivered a stunning, high-performance website that exceeded expectations.',
   },
@@ -76,7 +76,7 @@ const testimonials: Testimonial[] = [
     role: 'Project Manager',
     company: 'Upwork',
     companyLogo: '/icons/icon-databricks.svg',
-    rating: 5,
+    rating: 4,
     message:
       'Highly skilled frontend developer with an eye for design. Transformed our wireframes into a seamless and responsive web experience. Highly recommended!',
   },
@@ -103,7 +103,7 @@ const testimonials: Testimonial[] = [
     role: 'Product Manager',
     company: 'Google',
     companyLogo: '/icons/icon-adobe.svg',
-    rating: 4,
+    rating: 3,
     message:
       'Consistently delivers high-quality features on time. Excellent communication and a strong sense of ownership.',
   },

@@ -61,7 +61,9 @@ export default function ExperienceTimeline() {
       <h2 className='text-primary-200 mb-2 text-center text-sm md:text-lg'>
         EXPERIENCE
       </h2>
-      <h1 className='text-center text-3xl font-extrabold'>PROFESIONAL WORK</h1>
+      <h1 className='md:text-display-2xl text-center text-3xl font-extrabold'>
+        PROFESIONAL WORK
+      </h1>
       <div className='mx-auto mt-2 mb-12 h-1 w-10 bg-pink-400' />
 
       <div className='md:flex-center relative mx-auto'>
