@@ -60,14 +60,16 @@ const Testimonials = () => {
   console.log({ page, isMobile, itemsPerPage, maxPage });
 
   return (
-    <section className='custom-container mt-22 px-4 py-10 md:px-28'>
-      <h3 className='text-primary-200 md:text-lg-medium text-md-medium mb-2 text-center'>
-        TESTIMONIALS
-      </h3>
-      <h2 className='md:text-display-2xl text-neutral-25 text-display-md text-center font-extrabold'>
-        PEOPLE SAYS ABOUT ME
-      </h2>
-      <div className='mx-auto mt-2 mb-6 h-1 w-10 bg-pink-400 md:mb-16' />
+    <section className='custom-container mt-10 px-4 py-10 md:px-24'>
+      <div className='flex-center flex w-full flex-col'>
+        <h3 className='text-primary-200 md:text-lg-medium text-md-medium mb-2 text-center'>
+          TESTIMONIALS
+        </h3>
+        <h2 className='md:text-display-2xl text-neutral-25 display-md-extrabold left-1/2 max-w-70 text-center md:max-w-screen'>
+          PEOPLE SAYS ABOUT ME
+        </h2>
+        <div className='mx-auto mt-2 mb-6 h-1 w-10 bg-pink-400 md:mb-16' />
+      </div>
 
       <div className='mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2'>
         {paginated.map((t, i) => (

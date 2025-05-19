@@ -211,7 +211,7 @@ body {
 @layer components {
   .custom-container {
     margin: 0 auto;
-    @apply max-w-308;
+    @apply max-w-308 pr-6 pl-6;
   }
 }
 

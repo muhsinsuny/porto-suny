@@ -17,7 +17,35 @@ const PortfolioGrid = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
-    <section className='custom-container bg-black px-6 py-16 md:px-28'>
+    <section className='custom-container relative bg-black px-6 py-16 md:mt-10 md:px-24'>
+      {/* rectangle */}
+      <div>
+        <Image
+          src='/icons/rectangle.svg'
+          width={34}
+          height={34}
+          className='md:width-[46px] md:height-[46px] absolute top-9 right-8.5 z-100 md:absolute md:-top-9 md:block'
+          alt='rectangle'
+        />
+      </div>
+      <div>
+        <Image
+          src='/icons/rectangle.svg'
+          width={34}
+          height={34}
+          className='md:width-[46px] md:height-[46px] absolute top-17 right-0 z-100 md:absolute md:-top-17 md:block'
+          alt='rectangle'
+        />
+      </div>
+      <div>
+        <Image
+          src='/icons/rectangle.svg'
+          width={34}
+          height={34}
+          className='md:width-[46px] md:height-[46px] absolute top-1 right-0 z-100 md:absolute md:-top-1 md:block'
+          alt='rectangle'
+        />
+      </div>
       <div className='mb-10 text-center'>
         <p className='text-primary-200 text-sm font-medium md:text-lg'>
           PORTFOLIO

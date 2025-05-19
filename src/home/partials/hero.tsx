@@ -12,10 +12,10 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:h-screen md:items-center'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:h-screen md:items-center md:px-24'
       id='hero'
     >
-      <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:mt-15 md:flex-row'>
+      <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row'>
         <div className='mt-10 max-w-175 flex-col items-center justify-start gap-4 md:z-80'>
           <div className='flex items-center space-x-2'>
             <div className='1px border-rgba(253, 253, 253, 1) w-5.25 border md:w-28.5'></div>
@@ -45,7 +45,7 @@ export const Hero = () => {
         {/* Profil Image */}
         <div
           className={
-            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:w-1/2 md:items-end md:justify-end md:gap-0'
+            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:h-full md:w-1/2 md:items-end md:justify-end md:gap-0 md:px-4'
           }
         >
           <div className='md:right-0 md:-z-10'>
@@ -55,14 +55,13 @@ export const Hero = () => {
               height={400}
               width={392}
               sizes='100%'
-              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-full md:w-[661px] md:rounded-2xl'
+              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-full md:w-full md:rounded-2xl'
               quality={100}
               priority={true}
               loading='eager'
             />
             <div className='to-primary-75 from-primary-300 absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:left-1/2 md:z-10 md:w-1/2'></div>
             <div className='from-base-background to-white-950 absolute top-0 left-0 z-20 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:w-1/2'></div>
-            <div className='from-base-background md:bsolute to-white-5 absolute top-90 left-0 z-20 h-50 w-full bg-gradient-to-t md:top-105 md:z-10 md:h-[460px] md:w-[661px] md:justify-end'></div>
           </div>
 
           {/* Stiker */}
@@ -77,9 +76,9 @@ export const Hero = () => {
       </div>
 
       {/* vertical line left mobile and right desktop*/}
-      <div className='absolute -top-10 left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[50%] md:-z-10 md:h-167 md:-translate-x-3/4 md:transform'></div>
+      <div className='absolute -top-10 left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[50%] md:-z-10 md:h-183 md:-translate-x-3/4 md:transform'></div>
       {/* vertical line right mobile and left desktop*/}
-      <div className='absolute top-20 left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[25%] md:-z-10 md:h-167 md:transform'></div>
+      <div className='absolute top-20 left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[25%] md:-z-10 md:h-183 md:transform'></div>
 
       {/* rectangle group */}
       <div>
@@ -87,7 +86,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-100 md:absolute md:top-149 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-100 md:absolute md:top-164.5 md:block'
           alt='rectangle'
         />
       </div>
@@ -96,7 +95,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-100 md:absolute md:top-141 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-100 md:absolute md:top-156.5 md:block'
           alt='rectangle'
         />
       </div>
@@ -105,7 +104,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-100 md:absolute md:top-149 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-100 md:absolute md:top-164.5 md:block'
           alt='rectangle'
         />
       </div>
@@ -113,7 +112,7 @@ export const Hero = () => {
       {/* horizontal line nav */}
       <div className='absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-0'></div>
       {/* horizontal line bottom hero */}
-      <div className='absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-158 md:z-35'></div>
+      <div className='absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-173 md:z-35'></div>
     </section>
   );
 };

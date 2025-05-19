@@ -19,12 +19,12 @@ export default function WorkingSection() {
   ];
 
   return (
-    <section className='custom-container mt-6 w-full p-6 md:mt-10 md:px-28'>
+    <section className='custom-container mt-6 w-full p-6 md:mt-10 md:px-24'>
       <header className='text-center'>
         <h3 className='text-md text-primary-200 font-medium md:mb-2 md:text-lg'>
           WORKING
         </h3>
-        <h2 className='display-md-extrabold text-neutral-25 md:display-xl-extrabold mt-2'>
+        <h2 className='display-md-extrabold text-neutral-25 md:display-2xl-extrabold mt-2'>
           WHY CHOOSE ME?
         </h2>
         <div className='mx-auto mt-2 h-1 w-10 bg-pink-400' />
@@ -32,7 +32,7 @@ export default function WorkingSection() {
       <div className='grid grid-cols-1 gap-8 md:mt-12 md:grid-cols-2 md:gap-20'>
         {/* Column 1 */}
         <div>
-          <h2 className='mt-6 mb-6 text-center text-xl font-bold'>
+          <h2 className='md:text-display-sm mt-6 mb-6 text-center text-xl font-bold'>
             WORKING WITH ME
           </h2>
           <div className='flex-center mb-6 flex'>
@@ -56,7 +56,7 @@ export default function WorkingSection() {
                     className='text-primary-200 h-5 w-5'
                   />
 
-                  <span>{skill}</span>
+                  <span className='md:text-xl-bold text-md-bold'>{skill}</span>
                 </div>
                 {index < 5 && <hr className='my-6 border-neutral-800' />}
               </div>
@@ -66,7 +66,7 @@ export default function WorkingSection() {
 
         {/* Column 2 */}
         <div>
-          <h2 className='mt-6 mb-6 text-center text-xl font-bold'>
+          <h2 className='md:text-display-sm mt-6 mb-6 text-center text-xl font-bold'>
             ANOTHER TALENT
           </h2>
           <div className='flex-center mb-6 flex'>
@@ -89,7 +89,9 @@ export default function WorkingSection() {
                     height={24}
                     className='text-primary-300 h-5 w-5'
                   />
-                  <span>{skill}</span>
+                  <span className='md:display-xs-regular text-md-regular'>
+                    {skill}
+                  </span>
                 </div>
                 {index < 5 && <hr className='my-6 border-neutral-800' />}
               </div>
@@ -99,7 +101,7 @@ export default function WorkingSection() {
       </div>
 
       {/* Button */}
-      <div className='mt-6 text-center'>
+      <div className='mt-8 text-center'>
         <button className='bg-primary-200 hover:bg-primary-300 md:text-md-bold w-full cursor-pointer rounded-full px-6 py-2 text-sm font-bold text-neutral-950 transition md:h-[56] md:w-[240]'>
           HIRE ME
         </button>

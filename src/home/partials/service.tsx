@@ -5,10 +5,10 @@ import ServiceCards from '@/components/ui/serviceCards';
 const Service = () => {
   return (
     <>
-      <div className='relative mt-20 flex w-full flex-col overflow-hidden md:px-28'>
-        <header className='custom-container flex h-59 w-full flex-col md:px-32'>
+      <div className='relative mt-20 flex w-full flex-col overflow-hidden'>
+        <header className='custom-container flex h-59 w-full flex-col md:px-24'>
           <div className='flex-between flex md:flex-row'>
-            <div className='flex flex-col gap-4 md:flex-row md:items-center'>
+            <div className='flex flex-col justify-between gap-4 md:flex-row md:items-center'>
               <div className='flex flex-col gap-2'>
                 <h3 className='text-primary-200 text-md font-medium md:text-lg'>
                   SERVICE
@@ -19,7 +19,7 @@ const Service = () => {
                   EXPERTISE
                 </h1>
               </div>
-              <p className='text-md w-full font-medium text-neutral-400 md:text-right md:text-xl md:font-medium'>
+              <p className='text-md w-full font-medium text-neutral-400 md:w-1/2 md:text-right md:text-xl md:font-medium'>
                 Creating modern, intuitive, and visually consistent web
                 experiences that align with industry trends and user
                 expectations.
@@ -27,7 +27,7 @@ const Service = () => {
             </div>
           </div>
         </header>
-        <div className='custom-container mt-16 flex flex-col gap-6 md:mt-0 md:w-full md:flex-row md:justify-between md:gap-10 md:px-32'>
+        <div className='custom-container mt-16 flex flex-col gap-6 md:mt-0 md:w-full md:flex-row md:justify-between md:px-24'>
           <ServiceCards
             id='01'
             title='Custom Website Development'

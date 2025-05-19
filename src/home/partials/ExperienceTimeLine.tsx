@@ -55,7 +55,7 @@ export default function ExperienceTimeline() {
 
   return (
     <section
-      className='custom-container mt-20 w-full px-4 md:px-28'
+      className='custom-container mt-20 w-full px-4 md:px-24'
       ref={containerRef}
     >
       <h2 className='text-primary-200 mb-2 text-center text-sm md:text-lg'>
@@ -110,8 +110,8 @@ function TimelineItem({ exp, isLeft }: { exp: any; isLeft: boolean }) {
       </div>
 
       {/* Middle ID */}
-      <div className='relative z-10 hidden justify-center md:block md:items-center md:justify-center'>
-        <div className='bg-primary-200 flex h-10 w-10 items-center justify-center rounded-full font-bold text-black md:absolute md:top-35 md:left-20'>
+      <div className='relative z-10 hidden md:block md:text-center'>
+        <div className='bg-primary-200 md:text-md-bold flex h-10 w-10 rounded-full font-bold text-black md:absolute md:top-35 md:left-1/2 md:block md:-translate-x-1/2 md:p-1'>
           {exp.id}
         </div>
       </div>

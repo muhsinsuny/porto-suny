@@ -29,10 +29,10 @@ const ServiceCards: React.FC<ServiceCardsProps> = ({
           <Icon icon={icon} width={27} height={24} className='md:h-8 md:w-8' />
         </div>
 
-        <h1 className='text-xl-semibold text-neutral-25 md:max-w-70'>
+        <h1 className='text-xl-semibold text-neutral-25 md:max-w-69'>
           {title}
         </h1>
-        <p className='text-md-regular text-neutral-400 md:max-w-70'>
+        <p className='text-md-regular text-neutral-400 md:max-w-73'>
           {description}
         </p>
       </div>
