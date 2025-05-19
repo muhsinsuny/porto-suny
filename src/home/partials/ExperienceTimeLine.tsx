@@ -55,13 +55,13 @@ export default function ExperienceTimeline() {
 
   return (
     <section
-      className='custom-container mt-20 w-full bg-black px-4 text-white md:px-28'
+      className='custom-container mt-20 w-full px-4 md:px-28'
       ref={containerRef}
     >
       <h2 className='text-primary-200 mb-2 text-center text-sm md:text-lg'>
         EXPERIENCE
       </h2>
-      <h1 className='md:text-display-2xl text-center text-3xl font-extrabold'>
+      <h1 className='md:text-display-2xl text-display-md text-neutral-25 text-center font-extrabold'>
         PROFESIONAL WORK
       </h1>
       <div className='mx-auto mt-2 mb-12 h-1 w-10 bg-pink-400' />
@@ -70,7 +70,7 @@ export default function ExperienceTimeline() {
         {/* Animated Vertical Line */}
         <motion.div
           style={{ scaleY }}
-          className='absolute top-[12%] bottom-[10%] left-5.5 z-0 w-1 origin-top bg-green-500 md:top-[15%] md:bottom-[10%] md:left-1/2 md:block md:items-center md:justify-center'
+          className='bg-primary-200 absolute top-[12%] bottom-[10%] left-5.5 z-0 w-1 origin-top md:top-[15%] md:bottom-[10%] md:left-1/2 md:block md:items-center md:justify-center'
         />
 
         <div className='flex flex-col gap-4 md:items-center md:justify-center md:gap-0'>
@@ -111,7 +111,7 @@ function TimelineItem({ exp, isLeft }: { exp: any; isLeft: boolean }) {
 
       {/* Middle ID */}
       <div className='relative z-10 hidden justify-center md:block md:items-center md:justify-center'>
-        <div className='flex h-10 w-10 items-center justify-center rounded-full bg-green-500 font-bold text-black md:absolute md:top-35 md:left-20'>
+        <div className='bg-primary-200 flex h-10 w-10 items-center justify-center rounded-full font-bold text-black md:absolute md:top-35 md:left-20'>
           {exp.id}
         </div>
       </div>
@@ -124,7 +124,7 @@ function TimelineItem({ exp, isLeft }: { exp: any; isLeft: boolean }) {
       {/* Mobile view: 1 row horizontal */}
       <div className='flex md:hidden'>
         <div className='flex flex-row items-start'>
-          <div className='absolute top-1/2 left-1 flex h-10 w-10 items-center justify-center rounded-full bg-green-500 font-bold text-black'>
+          <div className='bg-primary-200 absolute top-1/2 left-1 flex h-10 w-10 -translate-y-2 items-center justify-center rounded-full font-bold text-black'>
             {exp.id}
           </div>
           <div className='mt-2 mb-2 ml-17'>
@@ -141,7 +141,7 @@ function ExperienceCard({ exp }: { exp: any }) {
     <div className='bg-base-background mt-2 w-full rounded-3xl border border-neutral-800 p-5 md:mt-4 md:h-full md:w-full md:rounded-3xl'>
       <div className='mb-2 md:flex md:flex-row md:items-start md:justify-between'>
         <div className='flex flex-col'>
-          <div className='text-sm-reguler font-medium text-neutral-400 md:text-lg'>
+          <div className='text-sm-reguler text-neutral-400 md:text-lg'>
             {exp.year}
           </div>
           <h3 className='text-md text-neutral-25 item-center md:display-xs-bold mt-1 mb-2 flex space-x-2 font-bold md:mb-4'>
@@ -150,7 +150,7 @@ function ExperienceCard({ exp }: { exp: any }) {
         </div>
         <Image src={exp.logo} alt={exp.company} width={76} height={32} />
       </div>
-      <p className='text-sm text-gray-300'>{exp.description}</p>
+      <p className='text-sm text-neutral-400'>{exp.description}</p>
     </div>
   );
 }

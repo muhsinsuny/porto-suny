@@ -1,6 +1,8 @@
 import AboutMe from '@/home/partials/aboutme';
+import ContactSection from '@/home/partials/contactSection';
 import ExperienceTimeline from '@/home/partials/ExperienceTimeLine';
-// import { FAQSection } from '@/home/partials/faq';
+import { FAQSection } from '@/home/partials/faq';
+import Footer from '@/home/partials/footer';
 import { Hero } from '@/home/partials/hero';
 import Navbar from '@/home/partials/navbar';
 import PortfolioGrid from '@/home/partials/portfolio';
@@ -21,7 +23,9 @@ const Home = () => {
       <ExperienceTimeline />
       <PortfolioGrid />
       <Testimonials />
-      {/* <FAQSection /> */}
+      <FAQSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 };

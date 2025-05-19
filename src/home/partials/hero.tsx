@@ -12,7 +12,7 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:h-[633px] md:items-center md:px-32'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:h-screen md:items-center'
       id='hero'
     >
       <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:mt-15 md:flex-row'>
@@ -24,7 +24,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className='flex-col overflow-auto md:mt-4'>
-            <h1 className='font-weight-extrabold text-display-lg font-bold text-neutral-200 md:text-5xl'>
+            <h1 className='font-weight-extrabold text-display-lg md:text-display-3xl font-bold text-neutral-200'>
               BUILDING FAST &{' '}
               <span className='text-primary-200'>INTERACTIVE</span> WEB
               EXPERIENCES.
@@ -111,7 +111,7 @@ export const Hero = () => {
       </div>
 
       {/* horizontal line nav */}
-      <div className='absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-32'></div>
+      <div className='absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-0'></div>
       {/* horizontal line bottom hero */}
       <div className='absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-158 md:z-35'></div>
     </section>
