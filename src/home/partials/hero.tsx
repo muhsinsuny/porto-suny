@@ -84,7 +84,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-100 md:absolute md:top-164.5 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-100 md:absolute md:top-[659] md:block'
           alt='rectangle'
         />
       </div>
@@ -93,7 +93,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-100 md:absolute md:top-156.5 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-100 md:absolute md:top-[626] md:block'
           alt='rectangle'
         />
       </div>
@@ -102,7 +102,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-100 md:absolute md:top-164.5 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-100 md:absolute md:top-[659] md:block'
           alt='rectangle'
         />
       </div>
@@ -110,7 +110,7 @@ export const Hero = () => {
       {/* horizontal line nav */}
       <div className='pointer-events-none absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-0'></div>
       {/* horizontal line bottom hero */}
-      <div className='pointer-events-none absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-173 md:z-35'></div>
+      <div className='pointer-events-none absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-[693.5] md:z-35'></div>
     </section>
   );
 };

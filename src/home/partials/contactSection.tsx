@@ -112,7 +112,7 @@ function ContactSection() {
             <h3 className='text-md-bold absolute top-91 z-30 text-neutral-200 md:top-[620]'>
               Muhsin Suny M.
             </h3>
-            <div className='flex-center absolute top-97 z-30 flex flex-row gap-3 md:top-[640]'>
+            <div className='flex-center absolute top-97 z-30 flex flex-row gap-3 md:top-[645]'>
               <div className='border-primary-200 bg-primary-200 top-97 z-30 h-4 w-4 rounded-full border-1' />
               <h3 className='text-sm-semibold top-97 z-30 text-neutral-400'>
                 Avaiable for Work
