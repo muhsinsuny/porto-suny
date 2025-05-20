@@ -5,8 +5,8 @@ import ServiceCards from '@/components/ui/serviceCards';
 const Service = () => {
   return (
     <>
-      <div className='relative mt-20 flex w-full flex-col overflow-hidden'>
-        <header className='custom-container flex h-59 w-full flex-col md:px-24'>
+      <div className='custom-container relative mt-15 flex w-full flex-col overflow-hidden md:px-24'>
+        <header className='custom-container flex h-59 w-full flex-col'>
           <div className='flex-between flex md:flex-row'>
             <div className='flex flex-col justify-between gap-4 md:flex-row md:items-center'>
               <div className='flex flex-col gap-2'>

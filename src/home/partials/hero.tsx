@@ -33,9 +33,9 @@ export const Hero = () => {
             </p>
             <Button
               asChild
-              className='md:text-md-bold bg-primary-200 hover:bg-primary-300 text-sm-bold mt-14 h-14 w-full p-2 px-8 py-4 font-bold text-neutral-950 md:mt-15 md:w-75'
+              className='md:text-md-bold bg-primary-200 hover:bg-primary-300 text-sm-bold mt-14 h-14 w-full p-2 px-8 py-4 font-bold text-neutral-950 hover:cursor-pointer md:z-100 md:mt-15 md:w-75'
             >
-              <Link href='#'>HIRE ME</Link>
+              <Link href='#contact'>HIRE ME</Link>
             </Button>
           </div>
         </div>
@@ -58,8 +58,8 @@ export const Hero = () => {
               priority={true}
               loading='eager'
             />
-            <div className='to-primary-75 from-primary-300 absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
-            <div className='from-base-background to-white-950 absolute top-0 left-0 z-20 ml-2 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
+            <div className='to-primary-75 from-primary-300 pointer-events-none absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
+            <div className='from-base-background to-white-950 pointer-events-none absolute top-0 left-0 z-20 ml-2 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
           </div>
 
           {/* Stiker */}
@@ -108,9 +108,9 @@ export const Hero = () => {
       </div>
 
       {/* horizontal line nav */}
-      <div className='absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-0'></div>
+      <div className='pointer-events-none absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-0'></div>
       {/* horizontal line bottom hero */}
-      <div className='absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-173 md:z-35'></div>
+      <div className='pointer-events-none absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-173 md:z-35'></div>
     </section>
   );
 };
