@@ -14,7 +14,7 @@ export const Hero = () => {
       id='hero'
     >
       <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row'>
-        <div className='mt-10 max-w-175 flex-col items-center justify-start gap-4 md:z-80'>
+        <div className='mt-30 max-w-175 flex-col items-center justify-start gap-4 md:z-80 md:h-[700]'>
           <div className='flex items-center space-x-2'>
             <div className='1px border-rgba(253, 253, 253, 1) w-5.25 border md:w-28.5'></div>
             <div className='text-neutral-25 text-md font-medium md:text-xl'>
@@ -58,8 +58,8 @@ export const Hero = () => {
               priority={true}
               loading='eager'
             />
-            <div className='to-primary-75 from-primary-300 absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:w-1/2'></div>
-            <div className='from-base-background to-white-950 absolute top-0 left-0 z-20 ml-2 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:w-1/2'></div>
+            <div className='to-primary-75 from-primary-300 absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
+            <div className='from-base-background to-white-950 absolute top-0 left-0 z-20 ml-2 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
           </div>
 
           {/* Stiker */}
