@@ -12,7 +12,10 @@ interface skillProps {
 
 export const Skills: React.FC<skillProps> = () => {
   return (
-    <section className='custom-container relative mt-10 flex h-full min-h-screen w-full flex-col overflow-hidden md:mt-0 md:h-fit md:items-center md:justify-center md:overflow-hidden md:px-24'>
+    <section
+      className='custom-container relative mt-10 flex h-full min-h-screen w-full flex-col overflow-hidden md:mt-0 md:h-fit md:items-center md:justify-center md:overflow-hidden md:px-24'
+      id='skill'
+    >
       <div className='flex h-full w-full flex-col md:h-svh md:max-h-screen md:flex-row md:items-center md:justify-between md:gap-20'>
         <div className='flex-start flex w-100 flex-col gap-8 px-4 md:w-[500px]'>
           <div className='flex flex-col justify-start gap-2 text-start md:w-full md:gap-2'>

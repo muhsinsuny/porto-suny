@@ -8,7 +8,10 @@ import ContactForm from './contactForm';
 
 function ContactSection() {
   return (
-    <div className='custom-container relative mt-8 flex flex-col py-10 md:flex-row md:px-24'>
+    <div
+      className='custom-container relative mt-8 flex flex-col py-10 md:flex-row md:px-24'
+      id='contact'
+    >
       {/* rectangle group */}
       <div>
         <Image

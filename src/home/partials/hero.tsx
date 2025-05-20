@@ -7,8 +7,6 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Sticker } from '@/components/ui/sticker';
 
-// import { ProfilImage } from './profilImage';
-
 export const Hero = () => {
   return (
     <section
@@ -35,7 +33,7 @@ export const Hero = () => {
             </p>
             <Button
               asChild
-              className='text-md bg-primary-200 hover:bg-primary-300 mt-14 h-14 w-full p-2 px-8 py-4 font-bold text-neutral-950 md:mt-15 md:w-75'
+              className='md:text-md-bold bg-primary-200 hover:bg-primary-300 text-sm-bold mt-14 h-14 w-full p-2 px-8 py-4 font-bold text-neutral-950 md:mt-15 md:w-75'
             >
               <Link href='#'>HIRE ME</Link>
             </Button>
@@ -45,7 +43,7 @@ export const Hero = () => {
         {/* Profil Image */}
         <div
           className={
-            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:h-full md:w-1/2 md:items-end md:justify-end md:gap-0 md:px-4'
+            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:h-[881] md:w-1/2 md:items-end md:justify-end md:gap-0'
           }
         >
           <div className='md:right-0 md:-z-10'>
@@ -55,17 +53,17 @@ export const Hero = () => {
               height={400}
               width={392}
               sizes='100%'
-              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-full md:w-full md:rounded-2xl'
+              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-[700] md:w-full md:-translate-y-40'
               quality={100}
               priority={true}
               loading='eager'
             />
-            <div className='to-primary-75 from-primary-300 absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:left-1/2 md:z-10 md:w-1/2'></div>
-            <div className='from-base-background to-white-950 absolute top-0 left-0 z-20 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:w-1/2'></div>
+            <div className='to-primary-75 from-primary-300 absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:w-1/2'></div>
+            <div className='from-base-background to-white-950 absolute top-0 left-0 z-20 ml-2 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:w-1/2'></div>
           </div>
 
           {/* Stiker */}
-          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-1/2 md:left-1/2 md:w-fit md:-translate-x-1/2 md:translate-y-2/3'>
+          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-1/2 md:left-1/2 md:w-fit md:-translate-x-1/2 md:translate-y-13'>
             <Sticker
               title='5.0'
               icon='material-symbols:star-rounded'

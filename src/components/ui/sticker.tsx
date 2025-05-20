@@ -20,7 +20,7 @@ export const Sticker: React.FC<StickerProps> = ({
 }) => {
   return (
     <div
-      className={`bg-base-background flex h-auto w-full max-w-sm flex-col rounded-xl border border-neutral-800 p-4 text-start shadow-md md:h-44 md:max-w-md md:rounded-2xl md:p-6 ${className} items-start`}
+      className={`bg-base-background flex h-auto w-full max-w-sm flex-col rounded-2xl border border-neutral-800 p-4 text-start shadow-md md:h-44 md:max-w-md md:rounded-3xl md:p-6 ${className} items-start`}
     >
       <h1 className='text-neutral-25 display-xs-bold mb-2 font-bold md:text-3xl'>
         {title}

@@ -259,3 +259,7 @@ img {
 .animate-marquee-reverse {
   animation: marquee-reverse var(--duration, 20s) linear infinite;
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -8,7 +8,7 @@ import faqs from '@/constants/faqs.data';
 
 export const FAQSection = () => {
   return (
-    <section className='custom-container py-10 md:px-28'>
+    <section className='custom-container py-10 md:px-24' id='faq'>
       <div className='mb-12 text-center'>
         <p className='text-md-medium text-primary-200 md:text-lg-medium mt-2'>
           FAQ

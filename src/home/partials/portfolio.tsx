@@ -17,7 +17,10 @@ const PortfolioGrid = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
-    <section className='custom-container relative bg-black px-6 py-16 md:mt-10 md:px-24'>
+    <section
+      className='custom-container relative bg-black px-6 py-16 md:mt-10 md:px-24'
+      id='project'
+    >
       {/* rectangle */}
       <div>
         <Image
