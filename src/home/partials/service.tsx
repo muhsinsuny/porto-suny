@@ -27,7 +27,7 @@ const Service = () => {
             </div>
           </div>
         </header>
-        <div className='custom-container mt-16 flex flex-col gap-6 md:mt-0 md:w-full md:flex-row md:justify-between md:px-24'>
+        <div className='custom-container mt-16 flex flex-col gap-6 md:mt-0 md:w-full md:flex-row md:justify-between'>
           <ServiceCards
             id='01'
             title='Custom Website Development'

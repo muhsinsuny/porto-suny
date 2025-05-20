@@ -35,7 +35,7 @@ const FormStatusDialog: React.FC<FormStatusDialogProps> = ({
             alt={variant === 'success' ? 'success' : 'error'}
             width={147}
             height={132}
-            className='absolute top-1/2 left-1/2 z-100 -translate-x-1/2 -translate-y-30 scale-100 md:left-1/2 md:-translate-x-10 md:-translate-y-50 md:scale-130'
+            className='pointer-events-none absolute top-1/2 left-1/2 z-100 -translate-x-1/2 -translate-y-30 scale-100 md:left-1/2 md:-translate-x-10 md:-translate-y-50 md:scale-130'
           />
         </DialogHeader>
         <DialogBody className='md:flex-center z-10 h-[233] px-8 pt-18 md:flex md:max-w-120 md:flex-col md:px-4 md:pt-25'>
@@ -50,7 +50,7 @@ const FormStatusDialog: React.FC<FormStatusDialogProps> = ({
               : 'Please try again later or check your internet connection.'}
           </DialogDescription>
           <DialogClose asChild>
-            <Button className='text-sm-bold mx-auto mt-6 w-full text-neutral-950 md:mt-4 md:w-1/2'>
+            <Button className='text-sm-bold mx-auto mt-6 w-full text-neutral-950 hover:cursor-pointer md:mt-4 md:w-1/2'>
               {loading ? 'Loading...' : 'BACK TO HOME'}
             </Button>
           </DialogClose>
