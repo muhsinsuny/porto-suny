@@ -141,7 +141,10 @@ const ContactForm = () => {
             )}
           />
 
-          <Button disabled={loading} className='mt-6 w-full md:mt-10'>
+          <Button
+            disabled={loading}
+            className='mt-6 w-full hover:cursor-pointer md:mt-10'
+          >
             {loading ? <ClipLoader size={20} color='#fff' /> : 'Send Message'}
           </Button>
         </form>

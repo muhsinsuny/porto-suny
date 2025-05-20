@@ -24,34 +24,34 @@ const FormStatusDialog: React.FC<FormStatusDialogProps> = ({
 }) => {
   return (
     <Dialog {...props}>
-      <DialogContent>
-        <DialogHeader className='relative h-34.25 bg-gradient-to-br from-[#0093DD] to-[#46AEE2] md:h-42'>
+      <DialogContent className='w-full md:flex md:h-[288] md:w-[481] md:flex-col md:items-center'>
+        <DialogHeader className='relative h-34.25 md:h-32'>
           <Image
             src={
               variant === 'success'
-                ? '/icons/icon-form-message-success.svg'
+                ? '/icons/message-success.svg'
                 : '/icons/icon-form-message-error.svg'
             }
             alt={variant === 'success' ? 'success' : 'error'}
-            width={220}
-            height={242}
-            className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-125 md:scale-160'
+            width={147}
+            height={132}
+            className='absolute top-1/2 left-1/2 z-60 -translate-x-1/2 -translate-y-1 scale-100 md:left-1/2 md:-translate-x-10 md:-translate-y-1/2 md:scale-130'
           />
         </DialogHeader>
-        <DialogBody>
+        <DialogBody className='md:flex-center h-[233] px-8 pt-18 md:flex md:max-w-120 md:flex-col md:px-4 md:pt-25'>
           <DialogTitle>
             {variant === 'success'
-              ? 'Your message has been sent!'
+              ? 'Message Sent Successfully!'
               : 'Oops! Your message couldn’t be sent.'}
           </DialogTitle>
-          <DialogDescription>
+          <DialogDescription className='text-center'>
             {variant === 'success'
-              ? 'Thanks for contacting us. We’ll respond to you shortly.'
+              ? 'Thank you for reaching out. I’ll get back to you as soon as possible'
               : 'Please try again later or check your internet connection.'}
           </DialogDescription>
           <DialogClose asChild>
-            <Button className='max-90.25 mx-auto mt-6 md:mt-8'>
-              {loading ? 'Loading...' : 'Back to Home'}
+            <Button className='text-sm-bold mx-auto mt-6 w-full text-neutral-950 md:mt-4 md:w-1/2'>
+              {loading ? 'Loading...' : 'BACK TO HOME'}
             </Button>
           </DialogClose>
         </DialogBody>

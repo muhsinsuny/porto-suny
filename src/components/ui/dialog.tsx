@@ -80,7 +80,7 @@ function DialogBody({ className, ...props }: React.ComponentProps<'div'>) {
     <div
       data-slot='dialog-body'
       className={cn(
-        'z-50 rounded-2xl bg-neutral-950 pt-6 pb-8 md:pt-8 md:pb-10',
+        'z-50 rounded-2xl bg-neutral-950 pt-6 pb-8 md:h-[286] md:pt-25 md:pb-10',
         className
       )}
       {...props}
@@ -109,7 +109,7 @@ function DialogTitle({
     <DialogPrimitive.Title
       data-slot='dialog-title'
       className={cn(
-        'text-lg-semibold md:text-xl-semibold text-neutral-25 text-center',
+        'text-lg-bold md:text-xl-bold text-neutral-25 text-center',
         className
       )}
       {...props}
@@ -124,7 +124,10 @@ function DialogDescription({
   return (
     <DialogPrimitive.Description
       data-slot='dialog-description'
-      className={cn('text-muted-foreground text-center text-sm', className)}
+      className={cn(
+        'md:text-md-regular text-sm-regular text-center text-neutral-400 md:text-center',
+        className
+      )}
       {...props}
     />
   );
