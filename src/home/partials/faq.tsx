@@ -23,31 +23,31 @@ export const FAQSection = () => {
       <div className='hidden md:flex md:items-center md:justify-center'>
         <div className='custom-container hidden items-start md:flex md:flex-row md:justify-start'>
           <FaqCard faq={faqs[0]} className={'md:w-1/2'} />
-          <div className='h-px w-[186px] bg-pink-400 md:left-1/2 md:mt-20 md:-translate-y-1/2 md:-rotate-90' />
+          <div className='h-px w-[186px] bg-neutral-800 md:left-1/2 md:mt-20 md:-translate-y-1/2 md:-rotate-90' />
           <FaqCard faq={faqs[1]} className={'md:mb-8 md:w-1/2'} />
         </div>
       </div>
       <div className=''>
-        <div className='right-1/2 left-1/2 hidden h-px w-full bg-pink-400 px-28 md:block' />
+        <div className='right-1/2 left-1/2 hidden h-px w-full bg-neutral-800 px-28 md:block' />
       </div>
 
       {/* 2nd row */}
       <div className='hidden md:mt-10 md:flex md:items-center md:justify-center'>
         <div className='custom-container hidden items-start md:flex md:flex-row md:justify-start'>
           <FaqCard faq={faqs[2]} className={'md:w-1/2'} />
-          <div className='h-px w-[186px] bg-pink-400 md:left-1/2 md:mt-20 md:-translate-y-1/2 md:-rotate-90' />
+          <div className='h-px w-[186px] bg-neutral-800 md:left-1/2 md:mt-20 md:-translate-y-1/2 md:-rotate-90' />
           <FaqCard faq={faqs[3]} className={'md:mb-8 md:w-1/2'} />
         </div>
       </div>
       <div className=''>
-        <div className='right-1/2 left-1/2 hidden h-px w-full bg-pink-400 px-28 md:mt-6 md:block' />
+        <div className='right-1/2 left-1/2 hidden h-px w-full bg-neutral-800 px-28 md:mt-6 md:block' />
       </div>
 
       {/* 3rd row */}
       <div className='hidden md:mt-10 md:flex md:items-center md:justify-center'>
         <div className='custom-container hidden items-start md:flex md:flex-row md:justify-start'>
           <FaqCard faq={faqs[4]} className={'md:w-1/2'} />
-          <div className='h-px w-[186px] bg-pink-400 md:left-1/2 md:mt-20 md:-translate-y-1/2 md:-rotate-90' />
+          <div className='h-px w-[186px] bg-neutral-800 md:left-1/2 md:mt-20 md:-translate-y-1/2 md:-rotate-90' />
           <FaqCard faq={faqs[5]} className={'md:mb-10 md:w-1/2'} />
         </div>
       </div>
@@ -59,7 +59,7 @@ export const FAQSection = () => {
             <FaqCard faq={faq} />
             {index < arr.length - 1 && (
               <div className='flex items-center'>
-                <div className='h-px w-full bg-pink-400' />
+                <div className='h-px w-full bg-neutral-800' />
               </div>
             )}
           </React.Fragment>

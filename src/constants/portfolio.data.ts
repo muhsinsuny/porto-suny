@@ -45,7 +45,7 @@ const portfoliosData = [
     description:
       'Showcasing skills, passion, and creative work — all in one place. A clear snapshot of who I am and what I do.',
     image: '/images/image6.png',
-    link: 'https://porto-suny.vercel.app/',
+    link: 'https://showzonewph2.vercel.app/',
   },
 ];
 

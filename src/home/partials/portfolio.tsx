@@ -47,10 +47,8 @@ const PortfolioGrid = () => {
         />
       </div>
       <div className='mb-10 text-center'>
-        <p className='text-primary-200 text-sm font-medium md:text-lg'>
-          PORTFOLIO
-        </p>
-        <h2 className='md:text-display-2xl text-4xl font-extrabold text-white'>
+        <p className='text-primary-200 text-md-medium md:text-lg'>PORTFOLIO</p>
+        <h2 className='md:text-display-2xl display-md-extrabold text-white'>
           SELECTED WORK
         </h2>
         <div className='mx-auto mt-2 mb-6 h-1 w-10 bg-pink-400 md:mb-16' />

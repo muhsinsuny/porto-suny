@@ -85,7 +85,7 @@ export default function WorkingSection() {
                   <Image
                     src='/icons/star2.svg'
                     alt='star'
-                    width={22.83}
+                    width={23}
                     height={24}
                     className='text-primary-300 h-5 w-5'
                   />

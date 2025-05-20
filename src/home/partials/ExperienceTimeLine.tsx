@@ -14,7 +14,7 @@ const experiences = [
     company: 'Upwork',
     logo: '/icons/icon-upwork.svg',
     description:
-      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces using modern frameworks...',
+      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces using modern frameworks. Focused on optimizing performance, accessibility, and seamless user experience.',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const experiences = [
     company: 'Trello',
     logo: '/icons/icon-trello.svg',
     description:
-      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces...',
+      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces. Focused on optimizing performance, accessibility, and seamless user experience.',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const experiences = [
     company: 'Zoom',
     logo: '/icons/icon-zoom.svg',
     description:
-      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces...',
+      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces. Focused on optimizing performance, accessibility, and seamless user experience.',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const experiences = [
     company: 'Zapier',
     logo: '/icons/icon-zapier.svg',
     description:
-      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces...',
+      'Builds responsive and high-performance web applications with clean, maintainable code. Expert in translating UI/UX designs into pixel-perfect interfaces. Focused on optimizing performance, accessibility, and seamless user experience.',
   },
 ];
 
@@ -58,19 +58,21 @@ export default function ExperienceTimeline() {
       className='custom-container mt-20 w-full px-4 md:px-24'
       ref={containerRef}
     >
-      <h2 className='text-primary-200 mb-2 text-center text-sm md:text-lg'>
-        EXPERIENCE
-      </h2>
-      <h1 className='md:text-display-2xl text-display-md text-neutral-25 text-center font-extrabold'>
-        PROFESIONAL WORK
-      </h1>
-      <div className='mx-auto mt-2 mb-12 h-1 w-10 bg-pink-400' />
+      <div className='flex-center flex-col flex-wrap'>
+        <h2 className='text-primary-200 mb-2 text-center text-sm md:text-lg'>
+          EXPERIENCE
+        </h2>
+        <h1 className='md:text-display-2xl display-md-extrabold text-neutral-25 max-w-70 text-center font-extrabold'>
+          PROFESIONAL WORK
+        </h1>
+        <div className='mx-auto mt-2 mb-12 h-1 w-10 bg-pink-400' />
+      </div>
 
       <div className='md:flex-center relative mx-auto'>
         {/* Animated Vertical Line */}
         <motion.div
           style={{ scaleY }}
-          className='bg-primary-200 absolute top-[12%] bottom-[10%] left-5.5 z-0 w-1 origin-top md:top-[15%] md:bottom-[10%] md:left-1/2 md:block md:items-center md:justify-center'
+          className='bg-primary-200 absolute top-43 bottom-[10%] left-5.5 z-0 w-1 origin-top md:top-[15%] md:bottom-[10%] md:left-1/2 md:block md:items-center md:justify-center'
         />
 
         <div className='flex flex-col gap-4 md:items-center md:justify-center md:gap-0'>
@@ -144,7 +146,7 @@ function ExperienceCard({ exp }: { exp: any }) {
           <div className='text-sm-reguler text-neutral-400 md:text-lg'>
             {exp.year}
           </div>
-          <h3 className='text-md text-neutral-25 item-center md:display-xs-bold mt-1 mb-2 flex space-x-2 font-bold md:mb-4'>
+          <h3 className='text-md-bold text-neutral-25 item-center md:display-xs-bold mt-1 mb-2 flex space-x-2 md:mb-4'>
             {exp.title}
           </h3>
         </div>

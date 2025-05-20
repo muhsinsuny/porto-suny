@@ -14,13 +14,13 @@ export const Section: React.FC<SectionProps> = ({
   id,
 }) => {
   return (
-    <div className='custom-container w-full py-10 md:px-28 md:py-20' id={id}>
+    <div className='custom-container w-full py-10' id={id}>
       {/* heading */}
       <div className='text-left'>
         <h3 className='text-md-medium md:text-lg-medium text-primary-200 mt-4'>
           {subtitle}
         </h3>
-        <h2 className='display-md-extrabold md:display-2xl-extrabold text-neutral-25'>
+        <h2 className='display-md-extrabold md:display-2xl-extrabold text-neutral-25 md:w-[501]'>
           {title}
         </h2>
       </div>
