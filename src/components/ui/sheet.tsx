@@ -154,5 +154,4 @@ export {
   SheetFooter,
   SheetTitle,
   SheetDescription,
-  SheetPrimitive,
 };

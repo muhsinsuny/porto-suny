@@ -10,6 +10,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  SheetClose,
 } from '@/components/ui/sheet';
 
 import { navigationItems } from '@/constants/Navigation.data';
@@ -42,7 +43,7 @@ const Navbar = () => {
     <header className='flex-between custom-container md:max-w-auto top-0 z-100 h-20 w-full items-center justify-center px-4 py-6.25 text-white md:absolute md:left-1/2 md:z-100 md:min-w-6xl md:-translate-x-1/2 md:transform md:items-center md:px-24'>
       <div className='border-b-1px flex h-20 w-full items-center justify-between border-neutral-800 md:absolute md:z-100 md:items-center md:justify-between'>
         <div
-          className={`md:right-0 md:flex md:flex-row md:items-center ${showHamburger ? 'bg-primary-300 fixed z-99 h-16 w-full items-center justify-center rounded-2xl border-neutral-800 px-0 py-4 opacity-100' : ''} md:justify-between`}
+          className={`md:right-0 md:flex md:flex-row md:items-center ${showHamburger ? 'bg-primary-300 fixed z-99 h-16 w-full rounded-2xl border-neutral-800 px-4 py-4 opacity-81' : ''} md:justify-between`}
         >
           <div className='flex items-start'>
             <div className='fixed z-100 flex items-center gap-2.25 opacity-100 md:flex md:h-2 md:items-center md:gap-4'>
@@ -93,9 +94,11 @@ const Navbar = () => {
                     key={index}
                     className='hover:text-primary-200 text-md-regular text-base-white p-2'
                   >
-                    <Link className='' href={item.href}>
-                      {item.label}
-                    </Link>
+                    <SheetClose asChild>
+                      <Link className='' href={item.href}>
+                        {item.label}
+                      </Link>
+                    </SheetClose>
                   </li>
                 ))}
               </ul>
