@@ -102,9 +102,12 @@ export default function WorkingSection() {
 
       {/* Button */}
       <div className='mt-8 text-center'>
-        <button className='bg-primary-200 hover:bg-primary-300 md:text-md-bold w-full cursor-pointer rounded-full px-6 py-2 text-sm font-bold text-neutral-950 transition md:h-[56] md:w-[240]'>
+        <a
+          href='#contact'
+          className='bg-primary-200 hover:bg-primary-300 md:text-md-bold w-full cursor-pointer rounded-full px-6 py-2 text-sm font-bold text-neutral-950 transition md:h-[56] md:w-[240]'
+        >
           HIRE ME
-        </button>
+        </a>
       </div>
     </section>
   );

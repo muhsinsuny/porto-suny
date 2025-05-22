@@ -84,7 +84,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-100 md:absolute md:top-[659] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-90 md:absolute md:top-[659] md:block'
           alt='rectangle'
         />
       </div>
@@ -93,7 +93,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-100 md:absolute md:top-[626] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-90 md:absolute md:top-[626] md:block'
           alt='rectangle'
         />
       </div>
@@ -102,7 +102,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-100 md:absolute md:top-[659] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-90 md:absolute md:top-[659] md:block'
           alt='rectangle'
         />
       </div>

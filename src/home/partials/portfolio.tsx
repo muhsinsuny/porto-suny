@@ -27,7 +27,7 @@ const PortfolioGrid = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-9 right-8.5 z-100 md:absolute md:-top-9 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-9 right-8.5 z-90 md:absolute md:-top-9 md:block'
           alt='rectangle'
         />
       </div>
@@ -36,7 +36,7 @@ const PortfolioGrid = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-17 right-0 z-100 md:absolute md:-top-17 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-17 right-0 z-90 md:absolute md:-top-17 md:block'
           alt='rectangle'
         />
       </div>
@@ -45,7 +45,7 @@ const PortfolioGrid = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-1 right-0 z-100 md:absolute md:-top-1 md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-1 right-0 z-90 md:absolute md:-top-1 md:block'
           alt='rectangle'
         />
       </div>
