@@ -1,4 +1,5 @@
 'use client';
+
 import Image from 'next/image';
 import React from 'react';
 import { useState } from 'react';
@@ -12,7 +13,7 @@ function Footer() {
 
   return (
     <>
-      <div className='custom-container flex h-25 w-full flex-row items-center justify-between py-6 md:px-24'>
+      <div className='custom-container z-100 flex h-25 w-full flex-row items-center justify-between py-6 md:px-24'>
         <div
           className='flex w-fit flex-row items-center space-x-2'
           onMouseEnter={() => setHovered(true)}
