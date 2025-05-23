@@ -2,7 +2,7 @@ import AboutMe from '@/home/partials/aboutme';
 import ContactSection from '@/home/partials/contactSection';
 import ExperienceTimeline from '@/home/partials/ExperienceTimeLine';
 import { FAQSection } from '@/home/partials/faq';
-import FloatingWhatsApp from '@/home/partials/FloatingWhatsApp';
+// import FloatingWhatsApp from '@/home/partials/FloatingWhatsApp';
 import Footer from '@/home/partials/footer';
 import { Hero } from '@/home/partials/hero';
 import Navbar from '@/home/partials/navbar';
@@ -27,7 +27,7 @@ const Home = () => {
       <FAQSection />
       <ContactSection />
       <Footer />
-      <FloatingWhatsApp />
+      {/* <FloatingWhatsApp /> */}
     </div>
   );
 };

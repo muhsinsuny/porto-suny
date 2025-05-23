@@ -12,12 +12,12 @@ export default function FloatingWhatsApp() {
 
   return (
     <div
-      className='custom-container relative bottom-25 left-0 z-50 flex w-fit -translate-x-33 items-center justify-start space-x-2 overflow-hidden md:bottom-26 md:-left-1/2 md:translate-x-35 md:px-24'
+      className='custom-container relative bottom-25 left-0 z-50 flex h-21 w-fit -translate-x-33 items-center justify-start space-x-2 overflow-hidden md:bottom-26 md:-left-1/2 md:translate-x-35 md:px-24'
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
       {hovered && (
-        <span className='not-odd:animate-fade-in hidden rounded-lg bg-green-600 px-3 py-1 text-white shadow-lg md:block'>
+        <span className='odd:animate-fade-out hidden rounded-lg bg-green-600 px-3 py-1 text-white shadow-lg md:block'>
           Chat via WhatsApp
         </span>
       )}
