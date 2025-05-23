@@ -43,7 +43,7 @@ export const Hero = () => {
         {/* Profil Image */}
         <div
           className={
-            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:h-[850] md:w-1/2 md:items-end md:justify-end md:gap-0'
+            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:h-[800] md:w-1/2 md:items-end md:justify-end md:gap-0'
           }
         >
           <div className='md:top-0 md:right-0 md:-z-10'>
@@ -53,7 +53,7 @@ export const Hero = () => {
               height={400}
               width={390}
               sizes='100%'
-              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-screen md:w-fit md:-translate-y-40'
+              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-screen md:w-fit md:-translate-y-30'
               quality={100}
               priority={true}
               loading='eager'
