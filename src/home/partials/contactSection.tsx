@@ -64,7 +64,7 @@ function ContactSection() {
             <div className='from-white-950 to-base-background absolute top-0 left-0 z-20 h-full w-full bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:w-full'></div>
 
             {/* Social Media */}
-            <div className='flex-center absolute top-75 z-50 flex flex-row gap-4 md:top-[550] md:block'>
+            <div className='flex-center absolute top-75 z-50 flex flex-row gap-4 md:top-[500] md:block'>
               <div className='flex-center flex h-12 w-12 rounded-full border-1 border-neutral-800 hover:cursor-pointer'>
                 <Link
                   href='https://github.com/muhsinsuny'
@@ -109,10 +109,10 @@ function ContactSection() {
                 </Link>
               </div>
             </div>
-            <h3 className='text-md-bold absolute top-91 z-30 text-neutral-200 md:top-[620]'>
+            <h3 className='text-md-bold absolute top-91 z-50 text-neutral-200 md:top-[570]'>
               Muhsin Suny M.
             </h3>
-            <div className='flex-center absolute top-97 z-30 flex flex-row gap-3 md:top-[645]'>
+            <div className='flex-center absolute top-97 z-50 flex flex-row gap-3 md:top-[600]'>
               <div className='border-primary-200 bg-primary-200 top-97 z-30 h-4 w-4 rounded-full border-1' />
               <h3 className='text-sm-semibold top-97 z-30 text-neutral-400'>
                 Avaiable for Work

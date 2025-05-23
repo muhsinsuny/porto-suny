@@ -4,7 +4,7 @@ import { FaArrowUp } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div className='custom-container flex-between relative flex flex-row text-center md:mt-10 md:items-center md:justify-center md:px-24'>
+    <div className='custom-container flex-between overflow-hiddenflex relative flex-row text-center md:mt-10 md:items-center md:justify-center md:px-24'>
       <a
         href='#hero'
         className='hover:bg-primary-200 absolute -top-15 left-0 inline-flex h-9 w-9 items-center justify-center rounded-full bg-white text-gray-800 transition md:-top-16'

@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <header className='fixed top-0 z-100 w-full opacity-81'>
       {/* Container */}
-      <div className='custom-container flex h-20 items-center justify-between bg-neutral-950 px-4 opacity-85 md:px-24'>
+      <div className='custom-container flex h-20 items-center justify-between overflow-hidden bg-neutral-950 px-4 opacity-85 md:px-24'>
         {/* Logo */}
         <div className='flex items-center gap-4'>
           <div className='w-6 border border-white'></div>

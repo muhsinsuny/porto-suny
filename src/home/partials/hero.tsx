@@ -10,11 +10,11 @@ import { Sticker } from '@/components/ui/sticker';
 export const Hero = () => {
   return (
     <section
-      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:h-screen md:items-center md:px-24'
+      className='custom-container flex-between flex w-full flex-wrap items-center overflow-hidden md:relative md:z-80 md:min-h-screen md:items-center md:px-24'
       id='hero'
     >
       <div className='z-80 flex flex-col items-center justify-center gap-10 md:z-10 md:flex-row'>
-        <div className='mt-30 max-w-175 flex-col items-center justify-start gap-4 md:z-80 md:h-[700]'>
+        <div className='mt-30 max-w-175 flex-col items-center justify-start gap-4 md:z-80 md:h-[800] md:pt-20'>
           <div className='flex items-center space-x-2'>
             <div className='1px border-rgba(253, 253, 253, 1) w-5.25 border md:w-28.5'></div>
             <div className='text-neutral-25 text-md font-medium md:text-xl'>
@@ -43,27 +43,28 @@ export const Hero = () => {
         {/* Profil Image */}
         <div
           className={
-            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:h-[881] md:w-1/2 md:items-end md:justify-end md:gap-0'
+            'relative top-[75.5%] z-10 flex w-full flex-col items-center justify-center overflow-hidden md:absolute md:top-0 md:right-0 md:z-10 md:h-[850] md:w-1/2 md:items-end md:justify-end md:gap-0'
           }
         >
-          <div className='md:right-0 md:-z-10'>
+          <div className='md:top-0 md:right-0 md:-z-10'>
             <Image
               src='/images/suny1-transparant.png'
               alt='hero'
               height={400}
-              width={392}
+              width={390}
               sizes='100%'
-              className='z-10 items-center rounded-lg object-contain md:right-0 md:z-10 md:h-[700] md:w-full md:-translate-y-40'
+              className='z-10 items-center rounded-lg object-contain md:top-30 md:right-0 md:z-10 md:h-screen md:w-fit md:-translate-y-40'
               quality={100}
               priority={true}
               loading='eager'
             />
-            <div className='to-primary-75 from-primary-300 pointer-events-none absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
-            <div className='from-base-background to-white-950 pointer-events-none absolute top-0 left-0 z-20 ml-2 h-full w-1/2 bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[700] md:w-1/2'></div>
+            <div className='from-base-background to-white-950 pointer-events-none absolute top-0 left-0 z-20 ml-2 h-full w-1/2 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[800] md:w-full md:translate-x-4'></div>
+            <div className='from-white-950 to-base-background pointer-events-none absolute top-0 left-0 z-20 ml-2 h-full w-1/2 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[800] md:w-full md:translate-x-4'></div>
           </div>
+          <div className='to-primary-75 from-primary-300 pointer-events-none absolute top-0 left-1/2 z-20 h-full w-2/3 overflow-hidden bg-gradient-to-b md:absolute md:top-0 md:right-1/2 md:z-10 md:h-[800] md:w-1/2 md:translate-x-6'></div>
 
           {/* Stiker */}
-          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-1/2 md:left-1/2 md:w-fit md:-translate-x-1/2 md:translate-y-13'>
+          <div className='flex-center absolute top-74 z-40 w-full md:absolute md:top-1/2 md:left-1/2 md:w-fit md:-translate-x-1/2 md:translate-y-33'>
             <Sticker
               title='5.0'
               icon='material-symbols:star-rounded'
@@ -74,9 +75,9 @@ export const Hero = () => {
       </div>
 
       {/* vertical line left mobile and right desktop*/}
-      <div className='absolute -top-10 left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[50%] md:-z-10 md:h-183 md:-translate-x-3/4 md:transform'></div>
+      <div className='absolute -top-10 left-1/2 -z-10 h-142 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[50%] md:-z-10 md:h-210 md:-translate-x-3/4 md:transform'></div>
       {/* vertical line right mobile and left desktop*/}
-      <div className='absolute top-20 left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[25%] md:-z-10 md:h-183 md:transform'></div>
+      <div className='absolute top-20 left-3/4 -z-10 h-110 -translate-x-1/2 transform border-l border-neutral-800 md:absolute md:-top-10 md:left-[25%] md:-z-10 md:h-210 md:transform'></div>
 
       {/* rectangle group */}
       <div>
@@ -84,7 +85,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-90 md:absolute md:top-[659] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-0 z-90 md:absolute md:top-[766] md:block'
           alt='rectangle'
         />
       </div>
@@ -93,7 +94,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-90 md:absolute md:top-[626] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-172 left-8.5 z-90 md:absolute md:top-[732] md:block'
           alt='rectangle'
         />
       </div>
@@ -102,7 +103,7 @@ export const Hero = () => {
           src='/icons/rectangle.svg'
           width={34}
           height={34}
-          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-90 md:absolute md:top-[659] md:block'
+          className='md:width-[46px] md:height-[46px] absolute top-180 left-17 z-90 md:absolute md:top-[766] md:block'
           alt='rectangle'
         />
       </div>
@@ -110,7 +111,7 @@ export const Hero = () => {
       {/* horizontal line nav */}
       <div className='pointer-events-none absolute top-20 bottom-0 left-0 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-20 md:z-35 md:overflow-hidden md:px-0'></div>
       {/* horizontal line bottom hero */}
-      <div className='pointer-events-none absolute top-130 left-0 -z-10 w-full border-t border-neutral-800 md:absolute md:top-[693.5] md:z-35'></div>
+      <div className='pointer-events-none absolute top-130 left-0 -z-10 w-full overflow-hidden border-t border-neutral-800 md:absolute md:top-[800] md:z-35'></div>
     </section>
   );
 };
